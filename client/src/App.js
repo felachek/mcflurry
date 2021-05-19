@@ -89,7 +89,7 @@ function App(props) {
     <div style={{ height: "100vh", width: "100%" }}>
       <GoogleMapReact
         bootstrapURLKeys={{
-          key: "AIzaSyBTeKtcL0GpfaBVfMziCCL7utRFALeq0a4",
+          key: TOKEN,
         }}
         defaultCenter={{ lat: 45.54, lng: -73.7 }}
         defaultZoom={12}
